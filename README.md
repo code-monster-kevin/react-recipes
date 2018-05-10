@@ -1,1 +1,1 @@
-react-recipes
+React Recipe - Diego Muracciole
