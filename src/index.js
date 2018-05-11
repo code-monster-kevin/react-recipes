@@ -1,4 +1,7 @@
-import log from './log';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';
 
+const MOUNT_ELEMENT = document.getElementById('root');
 
-log('Hello World!!');
+ReactDOM.render(<App />, MOUNT_ELEMENT);
