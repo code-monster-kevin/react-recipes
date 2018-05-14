@@ -1,19 +1,20 @@
 import React from 'react';
 import classNames from 'classnames';
+import PropTypes from 'prop-types';
 
 const RecipeDetail = (props) => {
-    if (!props.recipe){
-        return(
-            <p style={props.style} className={classNames("h3 p2 bg-white italic center", props.className)} >
+    if (!props.recipe) {
+        return (
+            <p style={props.style} className={classNames('h3 p2 bg-white italic center', props.className)} >
                 Select the recipe to see details
             </p>
         );
     }
 
     return (
-        <div style={props.style} className={classNames("p2 bg-white", props.className)}>
+        <div style={props.style} className={classNames('p2 bg-white', props.className)}>
             <h2 className="h2">{props.recipe.name}</h2>
-            <img className="fit" src={props.recipe.image} />
+            <img className="fit" alt={props.recipe.name} src={props.recipe.image} />
             <div>
                 <span>{props.recipe.category}</span>
                 <span>{props.recipe.calories}</span>
@@ -36,6 +37,12 @@ const RecipeDetail = (props) => {
             </ol>
         </div>
     );
-}
+};
+
+RecipeDetail.propTypes = {
+    recipe: PropTypes.object,
+    className: PropTypes.string,
+    style: PropTypes.object,
+};
 
 export default RecipeDetail;
