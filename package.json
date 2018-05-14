@@ -9,11 +9,13 @@
     "lint": "./node_modules/.bin/eslint ./src",
     "precommit": "lint-staged"
   },
-  "lint-staged": [
+  "lint-staged": {
+    "*.js" : [
     "npm run-script lint",
     "prettier --write",
     "git add"
-  ],
+    ]
+  },
   "keywords": [],
   "author": "Kevin Wu",
   "license": "ISC",
