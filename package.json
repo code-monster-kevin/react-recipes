@@ -7,12 +7,13 @@
     "start": "./node_modules/.bin/webpack-dev-server",
     "build": "./node_modules/.bin/webpack",
     "lint": "./node_modules/.bin/eslint ./src",
+    "prettier": "./node_modules/.bin/prettier ./src/components/*.js --write",
     "precommit": "lint-staged"
   },
   "lint-staged": {
     "*.js": [
-      "npm run-script lint",
       "prettier --write",
+      "npm run-script lint",      
       "git add"
     ]
   },
