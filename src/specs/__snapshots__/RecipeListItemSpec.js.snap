@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RecipeListItem /> No recipe props input 1`] = `
+<li
+  className="py2 border-bottom border-bottom-dashed pointer"
+  onClick={[Function]}
+>
+  <span
+    aria-label="Favourite"
+    className="mr1"
+    onClick={[Function]}
+    role="img"
+  >
+    🖤
+  </span>
+  <span />
+  <span />
+</li>
+`;
+
+exports[`<RecipeListItem /> Render favourite state 1`] = `
+<li
+  className="py2 border-bottom border-bottom-dashed pointer"
+  onClick={[Function]}
+>
+  <span
+    aria-label="Favourite"
+    className="mr1"
+    onClick={[Function]}
+    role="img"
+  >
+    ❤️
+  </span>
+  <span>
+    Mock Recipe
+  </span>
+  <span>
+    Mock Category
+  </span>
+</li>
+`;
+
+exports[`<RecipeListItem /> Valid recipe props input 1`] = `
+<li
+  className="py2 border-bottom border-bottom-dashed pointer"
+  onClick={[Function]}
+>
+  <span
+    aria-label="Favourite"
+    className="mr1"
+    onClick={[Function]}
+    role="img"
+  >
+    🖤
+  </span>
+  <span>
+    Mock Recipe
+  </span>
+  <span>
+    Mock Category
+  </span>
+</li>
+`;

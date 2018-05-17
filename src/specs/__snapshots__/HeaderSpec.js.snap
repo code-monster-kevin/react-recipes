@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> Render Header component 1`] = `
+<header
+  className="flex items-center justify-between px4"
+>
+  <h1
+    className="h1"
+  >
+    <span
+      aria-label="Panda"
+      role="img"
+    >
+      🐼
+    </span>
+     
+    My Recipes
+  </h1>
+  <nav>
+    <a
+      aria-current={false}
+      className="p1 mx2 black rounded text-decoration-none"
+      href="/"
+      onClick={[Function]}
+      style={undefined}
+    >
+      Home
+    </a>
+    <a
+      aria-current={false}
+      className="p1 mx2 black rounded text-decoration-none"
+      href="/favourites"
+      onClick={[Function]}
+      style={undefined}
+    >
+      Favourites
+    </a>
+  </nav>
+</header>
+`;

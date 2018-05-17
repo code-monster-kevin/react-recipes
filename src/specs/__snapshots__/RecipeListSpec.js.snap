@@ -1,0 +1,173 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RecipeList /> No recipes props input 1`] = `
+<ul
+  className="list-reset"
+/>
+`;
+
+exports[`<RecipeList /> Render favourite state 1`] = `
+<ul
+  className="list-reset"
+>
+  <li
+    className="py2 border-bottom border-bottom-dashed pointer"
+    onClick={[Function]}
+  >
+    <span
+      aria-label="Favourite"
+      className="mr1"
+      onClick={[Function]}
+      role="img"
+    >
+      ❤️
+    </span>
+    <span>
+      Mock Recipe 1
+    </span>
+    <span>
+      Mock Category 1
+    </span>
+  </li>
+  <li
+    className="py2 border-bottom border-bottom-dashed pointer"
+    onClick={[Function]}
+  >
+    <span
+      aria-label="Favourite"
+      className="mr1"
+      onClick={[Function]}
+      role="img"
+    >
+      🖤
+    </span>
+    <span>
+      Mock Recipe 2
+    </span>
+    <span>
+      Mock Category 2
+    </span>
+  </li>
+  <li
+    className="py2 border-bottom border-bottom-dashed pointer"
+    onClick={[Function]}
+  >
+    <span
+      aria-label="Favourite"
+      className="mr1"
+      onClick={[Function]}
+      role="img"
+    >
+      🖤
+    </span>
+    <span>
+      Mock Recipe 3
+    </span>
+    <span>
+      Mock Category 3
+    </span>
+  </li>
+  <li
+    className="py2 border-bottom border-bottom-dashed pointer"
+    onClick={[Function]}
+  >
+    <span
+      aria-label="Favourite"
+      className="mr1"
+      onClick={[Function]}
+      role="img"
+    >
+      ❤️
+    </span>
+    <span>
+      Mock Recipe 4
+    </span>
+    <span>
+      Mock Category 4
+    </span>
+  </li>
+</ul>
+`;
+
+exports[`<RecipeList /> Valid recipes props input 1`] = `
+<ul
+  className="list-reset"
+>
+  <li
+    className="py2 border-bottom border-bottom-dashed pointer"
+    onClick={[Function]}
+  >
+    <span
+      aria-label="Favourite"
+      className="mr1"
+      onClick={[Function]}
+      role="img"
+    >
+      🖤
+    </span>
+    <span>
+      Mock Recipe 1
+    </span>
+    <span>
+      Mock Category 1
+    </span>
+  </li>
+  <li
+    className="py2 border-bottom border-bottom-dashed pointer"
+    onClick={[Function]}
+  >
+    <span
+      aria-label="Favourite"
+      className="mr1"
+      onClick={[Function]}
+      role="img"
+    >
+      🖤
+    </span>
+    <span>
+      Mock Recipe 2
+    </span>
+    <span>
+      Mock Category 2
+    </span>
+  </li>
+  <li
+    className="py2 border-bottom border-bottom-dashed pointer"
+    onClick={[Function]}
+  >
+    <span
+      aria-label="Favourite"
+      className="mr1"
+      onClick={[Function]}
+      role="img"
+    >
+      🖤
+    </span>
+    <span>
+      Mock Recipe 3
+    </span>
+    <span>
+      Mock Category 3
+    </span>
+  </li>
+  <li
+    className="py2 border-bottom border-bottom-dashed pointer"
+    onClick={[Function]}
+  >
+    <span
+      aria-label="Favourite"
+      className="mr1"
+      onClick={[Function]}
+      role="img"
+    >
+      🖤
+    </span>
+    <span>
+      Mock Recipe 4
+    </span>
+    <span>
+      Mock Category 4
+    </span>
+  </li>
+</ul>
+`;
