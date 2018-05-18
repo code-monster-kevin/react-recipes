@@ -4,18 +4,34 @@ exports[`<Header /> Render Header component 1`] = `
 <header
   className="flex items-center justify-between px4"
 >
-  <h1
-    className="h1"
-  >
-    <span
-      aria-label="Panda"
-      role="img"
+  <div>
+    <h1
+      className="h1 inline-block mr2"
     >
-      🐼
+      <span
+        aria-label="Panda"
+        role="img"
+      >
+        🐼
+      </span>
+       
+      My Recipes
+    </h1>
+    <span
+      className="mr1"
+    >
+      by
     </span>
-     
-    My Recipes
-  </h1>
+    <img
+      alt="Logo"
+      src="test-file-stub"
+      style={
+        Object {
+          "width": 30,
+        }
+      }
+    />
+  </div>
   <nav>
     <a
       aria-current={false}
